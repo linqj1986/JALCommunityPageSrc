@@ -1,0 +1,6 @@
+framework module JALCommunityPage {
+  umbrella header "JALCommunityPage.h"
+
+  export *
+  module * { export * }
+}
