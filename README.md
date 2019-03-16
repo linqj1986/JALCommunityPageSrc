@@ -10,6 +10,7 @@ Framework
 bundle
 
 注意事项：
+
 a. 调试时，全部设置成Debug模式，如果是release模式，断点调试有的值看不见。
 
 b. 调试时，先编译一次JALCommunityPage.framework（目标设备使用generic ios device），
