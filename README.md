@@ -1,13 +1,16 @@
 # JALCommunityPageSrc
 
 1. TestPage
+
 -测试framework的demo
 
 2. JALCommunityPage
+
 -Framework
 -创建完framework，buildsetting里修改mach-o为static library再编译。
 
 3. JALCommunityBundle
+
 -bundle
 -创建完bundle，删除目录下的info.plist，buildsetting里删除info.plist file字断的内容再编译。
 
