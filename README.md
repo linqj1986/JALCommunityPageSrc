@@ -58,5 +58,9 @@ pod repo lint
 
 3.提交到pod
 pod repo push JALCommunityPage JALCommunityPage.podspec
+
+4.pod错误处理
+a.pods-xxx.release.xcconfig文件找不到，移除工程里的Pods目录，重新pod install一次；
+b.版本比别人的低，进入目录下运行pod update
 ```
 
