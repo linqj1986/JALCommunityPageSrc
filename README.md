@@ -8,6 +8,8 @@
 
 -Framework
 -创建完framework，buildsetting里修改mach-o为static library再编译。
+-如果用到分类，调用异常unrecognized,在other linker 增加-ObjC
+
 
 ## 3. JALCommunityBundle
 
