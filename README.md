@@ -8,7 +8,12 @@
 
 -Framework
 -创建完framework，buildsetting里修改mach-o为static library再编译。
+
 -如果用到分类，调用异常unrecognized,在other linker 增加-ObjC
+
+-使用了 @available 的SDK在Xcode11上编译后，会导致在旧版本 Xcode 编译出错。
+替换 @available为
+if ([UIDevice currentDevice].systemVersion.floatValue >= 13.0) {}
 
 
 ## 3. JALCommunityBundle
